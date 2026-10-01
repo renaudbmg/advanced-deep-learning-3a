@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+
+# Données et modèles (trop lourds pour git)
+data/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Logs d'entraînement
+wandb/
+runs/
+
+# Divers
+.env
+.DS_Store
+.vscode/
